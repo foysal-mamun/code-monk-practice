@@ -44,6 +44,7 @@ func main() {
 
 	for _, r := range s {
 		S += string(r ^ 32)
+		fmt.Println(r, (r ^ 32))
 	}
 	fmt.Println(S)
 }
